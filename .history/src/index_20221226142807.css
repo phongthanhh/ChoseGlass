@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Chose Glass */
+
+.model{
+  position: relative;
+  background-position: center; 
+  width: 400px;
+  height: 586px;  
+}
+
+.model__overlay{
+  position: absolute;
+  bottom: 0;
+}
+
+.model__overlay__img{
+  position: absolute;
+  top: -212%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.model__overlay__content{
+  background: rgba(34, 33, 33, 0.438);
+  padding: 5px;
+  color: #fff;
+}
